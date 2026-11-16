@@ -26,7 +26,7 @@ d.querySelectorAll('.karta').forEach(function(k){
   var idx=wszystkie.length;wszystkie.push({n:n,t:t});
   var bt=d.createElement('button');bt.type='button';bt.className='sl';bt.setAttribute('aria-label','Powiększ: '+t+' ('+(i+1)+'/'+zd.length+')');
   var szer=k2?'(max-width:600px) 46vw, (max-width:1100px) 46vw, 30vw':'(max-width:600px) 46vw, (max-width:1100px) 46vw, 24vw';
-  bt.innerHTML='<img src="img/'+n+'-800.webp" srcset="img/'+n+'-480.webp 480w, img/'+n+'-800.webp 800w" sizes="'+szer+'" width="800" height="1000" alt="'+t+'" loading="lazy" decoding="async" draggable="false">';
+  bt.innerHTML='<img src="img/'+n+'-800.webp" srcset="img/'+n+'-360.webp 360w, img/'+n+'-480.webp 480w, img/'+n+'-800.webp 800w" sizes="'+szer+'" width="800" height="1000" alt="'+t+'" loading="lazy" decoding="async" draggable="false">';
   bt.addEventListener('click',function(e){if(tor.dataset.moved==='1'){e.preventDefault();return}otworz(idx)});
   tor.appendChild(bt);
  });

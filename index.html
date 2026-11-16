@@ -9,11 +9,12 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" href="fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/jost-pl.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" type="image/webp" imagesrcset="img/hero-640.webp 640w, img/hero-1024.webp 1024w, img/hero-1440.webp 1440w, img/hero-1919.webp 1919w" imagesizes="(max-width:820px) 260vw, 125vw" fetchpriority="high">
 <style>
 @font-face{font-family:Jost;font-weight:200 700;font-display:swap;src:url(fonts/jost.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
 @font-face{font-family:Jost;font-weight:200 700;font-display:swap;src:url(fonts/jost-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
-@font-face{font-family:"Jost fb";src:local("Arial"),local("ArialMT");size-adjust:96%}
+@font-face{font-family:"Jost fb";src:local("Arial"),local("ArialMT");size-adjust:93%;ascent-override:107%;descent-override:37%}
 :root{--grafit:#2b2c2a;--tekst:#3d3e3b;--szary:#6b6d68;--linia:#d9dbd8;--tlo2:#f2f3f2;--oliwka:#4b5d23;--oliwka2:#5d7228;--ciemna:#2b2c2a;--max:1240px;--pad:clamp(20px,4vw,48px)}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:72px}
@@ -155,7 +156,7 @@ textarea{min-height:110px;resize:vertical}
 .mapa .zas{position:absolute;inset:0;display:grid;place-items:center;color:var(--szary);font-size:15px}
 
 /* stopka */
-.stopka{border-top:1px solid var(--linia);padding:48px 0 34px;font-size:15px;color:var(--szary)}
+.stopka{border-top:1px solid var(--linia);padding:48px 0 34px;font-size:15px;color:#4f514c}
 .stopka .g{display:grid;grid-template-columns:auto 1fr 1fr;gap:28px 60px;align-items:start}
 .stopka p{margin:0 0 4px}
 .stopka a{text-decoration:none}
@@ -246,7 +247,7 @@ textarea{min-height:110px;resize:vertical}
 <a class="skip" href="#realizacje">Przejdź do treści</a>
 <header class="top" id="top">
  <div class="wrap">
-  <a class="logo" href="#" aria-label="KM STUDIO Karolina Mazur - studio architektury, strona główna"><span class="l1">Karolina Mazur</span><span class="l2">studio architektury</span></a>
+  <a class="logo" href="#" aria-label="Karolina Mazur studio architektury - strona główna"><span class="l1">Karolina Mazur</span><span class="l2">studio architektury</span></a>
   <nav class="menu" id="menu" aria-label="Menu główne">
    <a href="#realizacje">Realizacje projektów</a>
    <a href="#oferta">Oferta</a>
@@ -363,7 +364,7 @@ textarea{min-height:110px;resize:vertical}
 <footer class="stopka">
  <div class="wrap">
   <div class="g">
-   <div class="lg"><a class="logo" href="#top" aria-label="Do góry strony"><span class="l1">Karolina Mazur</span><span class="l2">studio architektury</span></a></div>
+   <div class="lg"><a class="logo" href="#top" aria-label="Karolina Mazur studio architektury - do góry strony"><span class="l1">Karolina Mazur</span><span class="l2">studio architektury</span></a></div>
    <div><p>KM STUDIO Karolina Mazur</p><p>Samotnik 11, Glinnik, 95-002 Smardzew</p></div>
    <div><p><a href="tel:+48605590280">605 590 280</a></p><p><a href="mailto:biuro@karolinamazur.com">biuro@karolinamazur.com</a></p></div>
   </div>
